@@ -1,6 +1,6 @@
 @import url('https: //fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,500;1,700&display=swap');
 @import url('Roboto-Italic.ttf');
-@media(max-width:992px){
+@media(max-width:950px){
 * {
     font-family: 'Roboto', sans-serif;
 }
@@ -92,15 +92,7 @@ a {
     width: 30px;
     height: 30px;
 }
-#menu div {
-    background-color: rgb(247, 134, 134);
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
-    width: 150px;
-    justify-content: space-evenly;
-    font-size: smaller;
-}
+
 #text1 {
     display: flex;
     align-items: center;
