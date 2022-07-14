@@ -1,0 +1,286 @@
+@import url('https: //fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,500;1,700&display=swap');
+@import url('Roboto-Italic.ttf');
+@media(max-width:992px){
+* {
+    font-family: 'Roboto', sans-serif;
+}
+#body,
+section {
+    margin: auto;
+    max-width: 900px;
+    padding: 5px;
+}
+
+#accueil,
+a {
+    display: none;
+}
+#img1 {
+    width: 70%;
+    height: 70%;
+}
+
+#logo1 p {
+    margin: 0px;
+}
+.logo2 {
+    display: flex;
+    flex-direction: row;
+}
+.logo2 p i {
+    height: 150px;
+    width: 150px;
+    border: 1px solid #df2020;
+    border-radius: 50%;
+}
+#img4 {
+    width: 300px;
+    height: 250px;
+}
+#moto div {
+    padding: 10px;
+    width: 350px;
+}
+#moto div input {
+    background-color: #df2020;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: lighter;
+    color: white;
+    font-size: smaller;
+    width: 100px;
+}
+#moto div input:hover {
+    background-color: #212245;
+    font-size: larger;
+}
+#moto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#moto div h1 {
+    color: #df2020;
+}
+
+#moto div h3 {
+    margin-top: -20px;
+}
+
+#moto div h5 {
+    font-size: 20px;
+}
+.icon2 {
+    display: flex;
+    align-items: center;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    align-content: center;
+}
+#menu img {
+    width: 30px;
+    height: 30px;
+}
+#menu div {
+    background-color: rgb(247, 134, 134);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 150px;
+    justify-content: space-evenly;
+    font-size: smaller;
+}
+#text1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#text1 p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: smaller;
+}
+#p1 {
+    color: #df2020;
+    margin-bottom: 0px;
+}
+#services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    align-content: center;
+}
+#services div img {
+    width: 150px;
+    height: 150px;
+}
+
+#services div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+#services div h3,
+p {
+    font-size: 10px;
+}
+.text2 {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: smaller;
+}
+#all {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #df2020;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+#all div img {
+    width: 30px;
+    height: 30px;
+}
+
+#all div input {
+    width: 60px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+
+}
+#all div {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+    margin: 5px 15px;
+}
+
+.foodtype {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+    align-content: center;
+}
+
+.foodtype div div img {
+    width: 250px;
+    height: 350px;
+    align-self: center;
+}
+
+.foodtype div div h6 {
+    font-size: 20px;
+    align-self: center;
+}
+.all {
+    width: 300px;
+    height: 450px;
+    border: 1px solid #df2020;
+    margin: 5px 0px;
+    padding: 10px;
+}
+
+.all:hover {
+    flex-grow: 1;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.prix {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prix input {
+    width: 120px;
+    height: 40px;
+    background-color: #df2020;
+    border-radius: 1rem;
+    color: white;
+}
+
+.prix h6 {
+    color: #df2020;
+}
+
+.prix input:hover {
+    color: black;
+    background-color: #212245;
+    font-size: larger;
+}
+
+footer {
+    margin: auto;
+    background-color: rgb(248, 185, 185);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: #212245;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info p,
+h6 {
+    align-self: center;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.info div {
+    padding: 10px;
+    width: 200px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info h6 {
+    font-size: 15px;
+    margin-bottom: -5px;
+}
+
+.icon i {
+    width: 100%;
+    height: 100%;
+    background-color: #df2020;
+    margin-bottom: -10px;
+}
+}
